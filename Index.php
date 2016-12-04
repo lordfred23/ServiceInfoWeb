@@ -6,7 +6,9 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="Style/style.css">
 </head>
+<?php include "nav-bar.php";?>
 <body>
+
 <p>Pour le plaisir</p>
 
 
