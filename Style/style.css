@@ -1,9 +1,43 @@
 body{
 	background-color: #b3f0ff;
+	display: block;
+	
 }
 
 ul{
 	list-style-type: none;
-	margin: 0;
+	
 	padding: 0;
+	background-color: rgba(26, 140, 255,0.5);
+	overflow: hidden;
+	display: inline-block;
+	position: absolute;
+        
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+	
 }
+li{
+	display: inline;
+	border: 1px solid #555;
+	margin: 0px;
+	float: left;
+
+
+}
+
+
+
+li a{
+	display: block;
+	width: 60px;
+	padding: 8px;
+	text-decoration: none;
+	color: white;
+}
+.Page{
+	position: relative;
+	top: 40px;
+}
+
